@@ -2,6 +2,7 @@
  let secretNumber = Math.floor(Math.random() * 100) + 1;
 function resetGame(){
     secretNumber = Math.floor(Math.random() * 100) + 1;
+ console.log("Prashand Kalo Xa");
 }
 
 // Function to check the guess
