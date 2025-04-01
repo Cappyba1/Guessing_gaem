@@ -12,7 +12,9 @@ input {
     border: 1px solid #ccc; /* Light gray border */
     border-radius: 5px; /* Rounded corners */
 }
-
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
 button {
     margin: 5px;
     padding: 5px 10px;
