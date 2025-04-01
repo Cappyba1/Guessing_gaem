@@ -18,9 +18,11 @@ function checkGuess() {
         message.innerHTML = "Pick a number between 1 and 100, dumbass!";
     } else if (userGuess < secretNumber) {
         message.innerHTML = "Too low! Try again.";
+
     } else if (userGuess > secretNumber) {
         message.innerHTML = "Too high! Try again.";
     } else if (userGuess == secretNumber) {
         message.innerHTML = "You got it! Nice one!";
     }
+    document.getElementById("guessInput").value = " ";
 }
